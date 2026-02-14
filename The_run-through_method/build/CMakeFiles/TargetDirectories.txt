@@ -1,0 +1,3 @@
+/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/The_run-through_method/build/CMakeFiles/main.dir
+/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/The_run-through_method/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/The_run-through_method/build/CMakeFiles/rebuild_cache.dir

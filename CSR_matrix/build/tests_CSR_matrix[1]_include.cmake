@@ -1,5 +1,0 @@
-if(EXISTS "/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build/tests_CSR_matrix[1]_tests.cmake")
-  include("/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build/tests_CSR_matrix[1]_tests.cmake")
-else()
-  add_test(tests_CSR_matrix_NOT_BUILT tests_CSR_matrix_NOT_BUILT)
-endif()

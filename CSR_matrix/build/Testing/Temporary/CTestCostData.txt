@@ -1,0 +1,5 @@
+LILMatrix.Sizes 1 0.0183914
+LILMatrix.AddDoesNotThrowInRange 1 0.0129405
+LILMatrix.AddThrowsOutOfRange 1 0.02061
+LILMatrix.AddZeroIsIgnored 1 0.0224592
+---

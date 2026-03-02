@@ -1,0 +1,111 @@
+Start testing: Mar 02 11:36 MSK
+----------------------------------------------------------
+1/4 Testing: LILMatrix.Sizes
+1/4 Test: LILMatrix.Sizes
+Command: "/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build/tests_CSR_matrix" "--gtest_filter=LILMatrix.Sizes" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build
+"LILMatrix.Sizes" start time: Mar 02 11:36 MSK
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/third_party/googletest-main/googletest/src/gtest_main.cc
+Note: Google Test filter = LILMatrix.Sizes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LILMatrix
+[ RUN      ] LILMatrix.Sizes
+[       OK ] LILMatrix.Sizes (0 ms)
+[----------] 1 test from LILMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"LILMatrix.Sizes" end time: Mar 02 11:36 MSK
+"LILMatrix.Sizes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: LILMatrix.AddDoesNotThrowInRange
+2/4 Test: LILMatrix.AddDoesNotThrowInRange
+Command: "/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build/tests_CSR_matrix" "--gtest_filter=LILMatrix.AddDoesNotThrowInRange" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build
+"LILMatrix.AddDoesNotThrowInRange" start time: Mar 02 11:36 MSK
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/third_party/googletest-main/googletest/src/gtest_main.cc
+Note: Google Test filter = LILMatrix.AddDoesNotThrowInRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LILMatrix
+[ RUN      ] LILMatrix.AddDoesNotThrowInRange
+[       OK ] LILMatrix.AddDoesNotThrowInRange (0 ms)
+[----------] 1 test from LILMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LILMatrix.AddDoesNotThrowInRange" end time: Mar 02 11:36 MSK
+"LILMatrix.AddDoesNotThrowInRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: LILMatrix.AddThrowsOutOfRange
+3/4 Test: LILMatrix.AddThrowsOutOfRange
+Command: "/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build/tests_CSR_matrix" "--gtest_filter=LILMatrix.AddThrowsOutOfRange" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build
+"LILMatrix.AddThrowsOutOfRange" start time: Mar 02 11:36 MSK
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/third_party/googletest-main/googletest/src/gtest_main.cc
+Note: Google Test filter = LILMatrix.AddThrowsOutOfRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LILMatrix
+[ RUN      ] LILMatrix.AddThrowsOutOfRange
+[       OK ] LILMatrix.AddThrowsOutOfRange (6 ms)
+[----------] 1 test from LILMatrix (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"LILMatrix.AddThrowsOutOfRange" end time: Mar 02 11:36 MSK
+"LILMatrix.AddThrowsOutOfRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: LILMatrix.AddZeroIsIgnored
+4/4 Test: LILMatrix.AddZeroIsIgnored
+Command: "/mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build/tests_CSR_matrix" "--gtest_filter=LILMatrix.AddZeroIsIgnored" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/build
+"LILMatrix.AddZeroIsIgnored" start time: Mar 02 11:36 MSK
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/L9057/OneDrive/Рабочий стол/SLAU/CSR_matrix/third_party/googletest-main/googletest/src/gtest_main.cc
+Note: Google Test filter = LILMatrix.AddZeroIsIgnored
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LILMatrix
+[ RUN      ] LILMatrix.AddZeroIsIgnored
+[       OK ] LILMatrix.AddZeroIsIgnored (0 ms)
+[----------] 1 test from LILMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"LILMatrix.AddZeroIsIgnored" end time: Mar 02 11:36 MSK
+"LILMatrix.AddZeroIsIgnored" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 02 11:36 MSK

@@ -1,0 +1,76 @@
+#include <iostream>
+#include <vector>
+
+using Matrix = std::vector<std::vector<double>>;
+using Vector = std::vector<double>;
+
+int index(int i, int j, int N) {
+    return i * N + j;
+}
+
+void generateEllipticMatrix(int N, Matrix& A, Vector& b) {
+    int size = N * N;
+
+    A.assign(size, std::vector<double>(size, 0.0));
+    b.assign(size, 1.0);
+
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
+            int k = index(i, j, N);
+
+            A[k][k] = 4.0;
+
+            if (i > 0) {
+                A[k][index(i - 1, j, N)] = -1.0;
+            }
+
+            if (i < N - 1) {
+                A[k][index(i + 1, j, N)] = -1.0;
+            }
+
+            if (j > 0) {
+                A[k][index(i, j - 1, N)] = -1.0;
+            }
+
+            if (j < N - 1) {
+                A[k][index(i, j + 1, N)] = -1.0;
+            }
+        }
+    }
+}
+
+void printMatrix(const Matrix& A) {
+    for (const auto& row : A) {
+        for (double x : row) {
+            std::cout << x << " ";
+        }
+        std::cout << "\n";
+    }
+}
+
+void printVector(const Vector& b) {
+    for (double x : b) {
+        std::cout << x << " ";
+    }
+    std::cout << "\n";
+}
+
+
+int main() {
+    int N;
+    std::cout << "Введите N: ";
+    std::cin >> N;
+
+    Matrix A;
+    Vector b;
+
+    generateEllipticMatrix(N, A, b);
+
+    std::cout << "Матрица A:\n";
+    printMatrix(A);
+
+    std::cout << "\nВектор b:\n";
+    printVector(b);
+
+    return 0;
+}

@@ -65,7 +65,9 @@ public:
     		}
 	}
 
-
+	const std::vector<std::pair<int, T>>& get_row(int i) const {
+    		return data[i];
+	}
 
 
 
